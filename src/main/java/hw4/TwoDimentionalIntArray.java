@@ -30,13 +30,12 @@ public class TwoDimentionalIntArray {
     public void bubblesortIntArray(){
         for (int i = 0; i <array.length ; i++) {
             for (int j = 0; j < array[i].length-1; j++) {
-                for (int k = j + 1; k < array[i].length; k++) {
-                    if (array[i][j] > array[i][k]) {
+                    if (array[i][j] > array[i][j+1]) {
                         int temp = array[i][j];
-                        array[i][j] = array[i][k];
-                        array[i][k] = temp;
+                        array[i][j] = array[i][j+1];
+                        array[i][j+1] = temp;
                     }
-                }
+
             }
         }
     }
