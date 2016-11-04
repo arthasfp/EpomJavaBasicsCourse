@@ -9,7 +9,5 @@ public class Main {
        CurrentFormattedDate.getCurrentFormattedDate();
        AmountOfDaysForEachMonth.getAmountOfDaysForEachMonth(2017);
        AmountOfDaysOffForEachMonth.getAmountOfDaysOffForEachMonth(2017);
-
-        System.out.println("Test change");
     }
 }
