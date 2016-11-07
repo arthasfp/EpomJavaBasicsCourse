@@ -6,6 +6,9 @@ import hw4.StringTester;
 import hw4.TwoDimentionalIntArray;
 import hw4.TwoDimentionalStringArray;
 
+import static hw4.StringTester.isEmpty;
+import static hw4.StringTester.reverse;
+
 public class Main {
     public static void main(String[] args) {
 //       DaysToEndOfCurrentYear.getDaysToEndOfCurrentYear();
@@ -44,8 +47,12 @@ public class Main {
 
         String test = null;
         String test2 = "Це не пустий рядок";
-        System.out.println(StringTester.isEmpty(test));
-        System.out.println(StringTester.isEmpty(test2));
+        System.out.println(isEmpty(test));
+        System.out.println(isEmpty(test2));
+        System.out.println();
+
+        String test3 = "Це оригінальний рядок";
+        System.out.println(reverse(test3));
 
     }
 }
