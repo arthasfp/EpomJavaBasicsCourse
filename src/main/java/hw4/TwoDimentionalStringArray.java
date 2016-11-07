@@ -1,5 +1,6 @@
 package hw4;
 
+import java.util.Arrays;
 import java.util.Random;
 import java.util.UUID;
 
@@ -13,11 +14,11 @@ public class TwoDimentionalStringArray {
         array = new String[3][3];
     }
 
-    public String[][] getArray() {
+    public String[][] getStringArray() {
         return array;
     }
 
-    public void initializeIntArray(){
+    public void initializeStringArray(){
          for (int i = 0; i <array.length ; i++) {
             for (int j = 0; j <array[i].length ; j++) {
                 array[i][j] = String.valueOf(UUID.randomUUID());
@@ -25,7 +26,7 @@ public class TwoDimentionalStringArray {
         }
     }
 
-    public void bubblesortIntArray(){
+    public void bubblesortStringArray(){
         for (int i = 0; i <array.length ; i++) {
             for (int j = 0; j < array[i].length-1; j++) {
                 if (array[i][j].compareTo(array[i][j+1]) > 0) {
@@ -37,7 +38,13 @@ public class TwoDimentionalStringArray {
         }
     }
 
-    public void printArray(){
+    public void sortStringArray(){
+        for (int i = 0; i <array.length ; i++) {
+            Arrays.sort(array[i]);
+        }
+    }
+
+    public void printStringArray(){
         for (int i = 0; i <array.length ; i++) {
             System.out.println();
             for (int j = 0; j <array[i].length ; j++) {

@@ -26,12 +26,19 @@ public class Main {
         arraySecond.printArray();
         System.out.println();
 
-        TwoDimentionalStringArray twoDimentionalStringArray = new TwoDimentionalStringArray();
-        twoDimentionalStringArray.initializeIntArray();
-        twoDimentionalStringArray.printArray();
+        TwoDimentionalStringArray twoDimentionalFirstStringArray = new TwoDimentionalStringArray();
+        twoDimentionalFirstStringArray.initializeStringArray();
+        twoDimentionalFirstStringArray.printStringArray();
         System.out.println();
-        twoDimentionalStringArray.bubblesortIntArray();
-        twoDimentionalStringArray.printArray();
+        twoDimentionalFirstStringArray.bubblesortStringArray();
+        twoDimentionalFirstStringArray.printStringArray();
+        System.out.println();
+        TwoDimentionalStringArray twoDimentionalSecondStringArray = new TwoDimentionalStringArray();
+        twoDimentionalSecondStringArray.initializeStringArray();
+        twoDimentionalSecondStringArray.printStringArray();
+        System.out.println();
+        twoDimentionalSecondStringArray.sortStringArray();
+        twoDimentionalSecondStringArray.printStringArray();
 
     }
 }
