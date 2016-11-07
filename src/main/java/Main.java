@@ -7,6 +7,7 @@ import hw4.TwoDimentionalIntArray;
 import hw4.TwoDimentionalStringArray;
 
 import static hw4.StringTester.isEmpty;
+import static hw4.StringTester.removeWhiteSpaces;
 import static hw4.StringTester.reverse;
 
 public class Main {
@@ -53,6 +54,10 @@ public class Main {
 
         String test3 = "Це оригінальний рядок";
         System.out.println(reverse(test3));
+        System.out.println();
+
+        String test4 = "Хочу прибрати всі пробіли";
+        System.out.println(removeWhiteSpaces(test4));
 
     }
 }

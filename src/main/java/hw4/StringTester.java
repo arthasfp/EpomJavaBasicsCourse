@@ -20,6 +20,9 @@ public class StringTester {
         return String.valueOf(reversedString);
     }
 
+    public static String removeWhiteSpaces(String str){
+        return str.replaceAll(" ", "");
+    }
 
 
 }
