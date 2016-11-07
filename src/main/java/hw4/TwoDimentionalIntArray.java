@@ -35,7 +35,6 @@ public class TwoDimentionalIntArray {
                         array[i][j] = array[i][j+1];
                         array[i][j+1] = temp;
                     }
-
             }
         }
     }

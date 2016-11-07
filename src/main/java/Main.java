@@ -29,5 +29,9 @@ public class Main {
         TwoDimentionalStringArray twoDimentionalStringArray = new TwoDimentionalStringArray();
         twoDimentionalStringArray.initializeIntArray();
         twoDimentionalStringArray.printArray();
+        System.out.println();
+        twoDimentionalStringArray.bubblesortIntArray();
+        twoDimentionalStringArray.printArray();
+
     }
 }

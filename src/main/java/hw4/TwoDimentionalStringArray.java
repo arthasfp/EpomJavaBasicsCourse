@@ -25,6 +25,18 @@ public class TwoDimentionalStringArray {
         }
     }
 
+    public void bubblesortIntArray(){
+        for (int i = 0; i <array.length ; i++) {
+            for (int j = 0; j < array[i].length-1; j++) {
+                if (array[i][j].compareTo(array[i][j+1]) > 0) {
+                    String temp = array[i][j];
+                    array[i][j] = array[i][j+1];
+                    array[i][j+1] = temp;
+                }
+            }
+        }
+    }
+
     public void printArray(){
         for (int i = 0; i <array.length ; i++) {
             System.out.println();
