@@ -17,7 +17,7 @@ public class TwoDimentionalStringArray {
         return array;
     }
 
-    public void ininitializeIntArray(){
+    public void initializeIntArray(){
          for (int i = 0; i <array.length ; i++) {
             for (int j = 0; j <array[i].length ; j++) {
                 array[i][j] = String.valueOf(UUID.randomUUID());

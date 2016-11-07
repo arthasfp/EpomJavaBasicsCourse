@@ -13,7 +13,7 @@ public class Main {
        AmountOfDaysOffForEachMonth.getAmountOfDaysOffForEachMonth(2017);
 
         TwoDimentionalIntArray arrayFirst = new TwoDimentionalIntArray();
-        arrayFirst.ininitializeIntArray();
+        arrayFirst.initializeIntArray();
         arrayFirst.printArray();
         System.out.println();
         arrayFirst.bubblesortIntArray();
@@ -21,13 +21,13 @@ public class Main {
         System.out.println();
 
         TwoDimentionalIntArray arraySecond = new TwoDimentionalIntArray();
-        arraySecond.ininitializeIntArray();
+        arraySecond.initializeIntArray();
         arraySecond.sortIntArray();
         arraySecond.printArray();
         System.out.println();
 
         TwoDimentionalStringArray twoDimentionalStringArray = new TwoDimentionalStringArray();
-        twoDimentionalStringArray.ininitializeIntArray();
+        twoDimentionalStringArray.initializeIntArray();
         twoDimentionalStringArray.printArray();
     }
 }
