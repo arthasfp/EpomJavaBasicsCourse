@@ -3,6 +3,7 @@ import hw3.AmountOfDaysOffForEachMonth;
 import hw3.CurrentFormattedDate;
 import hw3.DaysToEndOfCurrentYear;
 import hw4.TwoDimentionalIntArray;
+import hw4.TwoDimentionalStringArray;
 
 public class Main {
     public static void main(String[] args) {
@@ -23,5 +24,10 @@ public class Main {
         arraySecond.ininitializeIntArray();
         arraySecond.sortIntArray();
         arraySecond.printArray();
+        System.out.println();
+
+        TwoDimentionalStringArray twoDimentionalStringArray = new TwoDimentionalStringArray();
+        twoDimentionalStringArray.ininitializeIntArray();
+        twoDimentionalStringArray.printArray();
     }
 }
