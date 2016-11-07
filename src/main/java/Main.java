@@ -1,14 +1,4 @@
-import hw3.AmountOfDaysForEachMonth;
-import hw3.AmountOfDaysOffForEachMonth;
-import hw3.CurrentFormattedDate;
-import hw3.DaysToEndOfCurrentYear;
-import hw4.StringTester;
-import hw4.TwoDimentionalIntArray;
-import hw4.TwoDimentionalStringArray;
-
-import static hw4.StringTester.isEmpty;
-import static hw4.StringTester.removeWhiteSpaces;
-import static hw4.StringTester.reverse;
+import static hw4.StringTester.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -58,6 +48,10 @@ public class Main {
 
         String test4 = "Хочу прибрати всі пробіли";
         System.out.println(removeWhiteSpaces(test4));
+        System.out.println();
+
+        String test5 = "Хочу прибрати всі пробілиХочу прибрати всі пробілиХочу прибрати всі пробілиХочу прибрати всі пробіли";
+        System.out.println(countOccurrences(test5, "Хочу"));
 
     }
 }
