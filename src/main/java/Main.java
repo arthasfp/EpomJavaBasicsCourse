@@ -1,3 +1,5 @@
+import hw4.StringFormatter;
+
 import static hw4.StringTester.*;
 
 public class Main {
@@ -52,6 +54,10 @@ public class Main {
 
         String test5 = "Хочу прибрати всі пробілиХочу прибрати всі пробілиХочу прибрати всі пробілиХочу прибрати всі пробіли";
         System.out.println(countOccurrences(test5, "Хочу"));
+        System.out.println();
+
+        String test6 = "Сьогодні";
+        StringFormatter.getStringWithDateFormatter(test6);
 
     }
 }
