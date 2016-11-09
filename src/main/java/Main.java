@@ -1,8 +1,5 @@
-import hw4.StringFormatter;
-import hw5.FormatTask;
 import hw5.Gender;
 
-import static hw4.StringTester.*;
 import static hw5.FormatTask.*;
 
 public class Main {
@@ -74,6 +71,9 @@ public class Main {
         padsWithZeros(8);
         precision(4);
         insertStrings(Gender.FEMALE.getTitle(), Gender.MALE.getTitle());
+        argumentOrder(genderInstance.getTitle(), genderInstance.getId());
+        padding(new String[]{"cat","dog","fish"}, new String[]{"love", "hate", "don't care"} );
+        getCalendarDate();
 
     }
 
