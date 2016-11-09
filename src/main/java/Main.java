@@ -39,32 +39,33 @@ public class Main {
 //        twoDimentionalSecondStringArray.printStringArray();
 //        System.out.println();
 
-        String test = null;
-        String test2 = "Це не пустий рядок";
-        System.out.println(isEmpty(test));
-        System.out.println(isEmpty(test2));
-        System.out.println();
-
-        String test3 = "Це оригінальний рядок";
-        System.out.println(reverse(test3));
-        System.out.println();
-
-        String test4 = "Хочу прибрати всі пробіли";
-        System.out.println(removeWhiteSpaces(test4));
-        System.out.println();
-
-        String test5 = "Хочу прибрати всі пробілиХочу прибрати всі пробілиХочу прибрати всі пробілиХочу прибрати всі пробіли";
-        System.out.println(countOccurrences(test5, "Хочу"));
-        System.out.println();
-
-        String test6 = "Сьогодні";
-        StringFormatter.getStringWithDateFormatter(test6);
+//        String test = null;
+//        String test2 = "Це не пустий рядок";
+//        System.out.println(isEmpty(test));
+//        System.out.println(isEmpty(test2));
+//        System.out.println();
+//
+//        String test3 = "Це оригінальний рядок";
+//        System.out.println(reverse(test3));
+//        System.out.println();
+//
+//        String test4 = "Хочу прибрати всі пробіли";
+//        System.out.println(removeWhiteSpaces(test4));
+//        System.out.println();
+//
+//        String test5 = "Хочу прибрати всі пробілиХочу прибрати всі пробілиХочу прибрати всі пробілиХочу прибрати всі пробіли";
+//        System.out.println(countOccurrences(test5, "Хочу"));
+//        System.out.println();
+//
+//        String test6 = "Сьогодні";
+//        StringFormatter.getStringWithDateFormatter(test6);
 
     }
-    public static void doHouseWork(Gender e){
-        switch (e) {
+
+    public static void doHouseWork(Gender gender){
+        switch (gender) {
             case MALE:
-                System.out.println("Закручувати лампочки");
+                System.out.println("Дивитись телевізор");
                 break;
             case FEMALE:
                 System.out.println("Варити борщ");
@@ -72,8 +73,5 @@ public class Main {
             default:
                 System.out.println("Лежати на дивані!");
         }
-
-
-
     }
 }

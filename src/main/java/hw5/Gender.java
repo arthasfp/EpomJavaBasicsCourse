@@ -7,13 +7,13 @@ public enum Gender {
     MALE(1, "Чоловік") {
         @Override
         public void getFavoriteBehavior() {
-            System.out.println("Пить пиво і дивиться футбол");
+            System.out.println("Грати в відеоігри");
         }
     },
     FEMALE(2, "Жінка") {
         @Override
         public void getFavoriteBehavior() {
-            System.out.println("Вишивать шрестиком і варить борщ");
+            System.out.println("Фарбуватися");
         }
     };
 
