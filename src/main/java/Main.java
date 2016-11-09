@@ -1,4 +1,5 @@
 import hw4.StringFormatter;
+import hw5.FormatTask;
 import hw5.Gender;
 
 import static hw4.StringTester.*;
@@ -67,6 +68,8 @@ public class Main {
         for (Gender gender: Gender.values()){
             gender.getFavoriteBehavior();
         }
+
+        FormatTask.digitFormatter(10, 20, 30);
 
     }
 
