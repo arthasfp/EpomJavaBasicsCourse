@@ -3,8 +3,7 @@ import hw5.FormatTask;
 import hw5.Gender;
 
 import static hw4.StringTester.*;
-import static hw5.FormatTask.digitFormatter;
-import static hw5.FormatTask.padsWithZeros;
+import static hw5.FormatTask.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -73,6 +72,8 @@ public class Main {
 
         digitFormatter(10, 20, 30);
         padsWithZeros(8);
+        precision(4);
+        insertStrings(Gender.FEMALE.getTitle(), Gender.MALE.getTitle());
 
     }
 
