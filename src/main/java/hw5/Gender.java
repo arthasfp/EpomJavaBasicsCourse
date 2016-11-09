@@ -6,13 +6,13 @@ package hw5;
 public enum Gender {
     MALE(1, "Чоловік") {
         @Override
-        public void favoriteBehavior() {
+        public void getFavoriteBehavior() {
             System.out.println("Пить пиво і дивиться футбол");
         }
     },
     FEMALE(2, "Жінка") {
         @Override
-        public void favoriteBehavior() {
+        public void getFavoriteBehavior() {
             System.out.println("Вишивать шрестиком і варить борщ");
         }
     };
@@ -33,5 +33,5 @@ public enum Gender {
         return title;
     }
 
-    public abstract void favoriteBehavior();
+    public abstract void getFavoriteBehavior();
 }

@@ -1,4 +1,5 @@
 import hw4.StringFormatter;
+import hw5.Gender;
 
 import static hw4.StringTester.*;
 
@@ -58,6 +59,21 @@ public class Main {
 
         String test6 = "Сьогодні";
         StringFormatter.getStringWithDateFormatter(test6);
+
+    }
+    public static void doHouseWork(Gender e){
+        switch (e) {
+            case MALE:
+                System.out.println("Закручувати лампочки");
+                break;
+            case FEMALE:
+                System.out.println("Варити борщ");
+                break;
+            default:
+                System.out.println("Лежати на дивані!");
+        }
+
+
 
     }
 }
