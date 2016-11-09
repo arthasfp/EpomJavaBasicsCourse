@@ -3,6 +3,8 @@ import hw5.FormatTask;
 import hw5.Gender;
 
 import static hw4.StringTester.*;
+import static hw5.FormatTask.digitFormatter;
+import static hw5.FormatTask.padsWithZeros;
 
 public class Main {
     public static void main(String[] args) {
@@ -69,7 +71,8 @@ public class Main {
             gender.getFavoriteBehavior();
         }
 
-        FormatTask.digitFormatter(10, 20, 30);
+        digitFormatter(10, 20, 30);
+        padsWithZeros(8);
 
     }
 
