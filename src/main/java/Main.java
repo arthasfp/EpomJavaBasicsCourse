@@ -61,8 +61,7 @@ public class Main {
 //        StringFormatter.getStringWithDateFormatter(test6);
         doHouseWork(Gender.FEMALE);
 
-        System.out.println(Gender.MALE.getId());
-        System.out.println(Gender.MALE.getTitle());
+        System.out.println(Gender.MALE.getId() + ": " + Gender.MALE.getTitle());
 
         for (Gender gender: Gender.values()){
             gender.getFavoriteBehavior();
