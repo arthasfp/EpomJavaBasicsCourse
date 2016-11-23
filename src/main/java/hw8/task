@@ -1,0 +1,12 @@
+Почитати
+http://www.quizful.net/post/java-fields-initialization (Хороший сайт. Багато тестів для перевірки знань)
+Рекурсія
+http://introcs.cs.princeton.edu/java/23recursion/ або
+http://www.toves.org/books/java/ch17-recur/index.html Вроді непогано написано. Там же є і приклади.
+http://introcs.cs.princeton.edu/java/23recursion/Queens.java.html
+http://www.java.achchuthan.org/2012/02/n-queens-problem-in-java.html
+
+Практика
+Ще раз розглянути com.epom.services.UserService. Написати свою реалізацію такого сервіса з, можливо, іншою реалізацією (for example BookService, StudentService, EmployerService). Написати коменти до всіх методів.
+
+Написати, використовуючи рекурсію, (або знайти в неті і розібратись ;)) реалізацію знаходження  а) factorial; б) fibonacci; в) permutations of a String;  г) n Quean problem.
