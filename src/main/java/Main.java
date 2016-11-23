@@ -1,6 +1,6 @@
 import hw5.Gender;
 
-import static hw5.FormatTask.*;
+import static hw8.Recursion.getSimpleFactorial;
 
 public class Main {
     public static void main(String[] args) {
@@ -58,22 +58,23 @@ public class Main {
 //
 //        String test6 = "Сьогодні";
 //        StringFormatter.getStringWithDateFormatter(test6);
-        doHouseWork(Gender.FEMALE);
+//        doHouseWork(Gender.FEMALE);
+//
+//        Gender genderInstance = Gender.MALE;
+//        System.out.println(genderInstance.getId() + ": " + genderInstance.getTitle());
+//
+//        for (Gender gender: Gender.values()){
+//            gender.getFavoriteBehavior();
+//        }
 
-        Gender genderInstance = Gender.MALE;
-        System.out.println(genderInstance.getId() + ": " + genderInstance.getTitle());
-
-        for (Gender gender: Gender.values()){
-            gender.getFavoriteBehavior();
-        }
-
-        digitFormatter(10, 20, 30);
-        padsWithZeros(8);
-        precision(4);
-        insertStrings(Gender.FEMALE.getTitle(), Gender.MALE.getTitle());
-        argumentOrder(genderInstance.getTitle(), genderInstance.getId());
-        padding(new String[]{"cat","dog","fish"}, new String[]{"love", "hate", "don't care"} );
-        getCalendarDate();
+//        digitFormatter(10, 20, 30);
+//        padsWithZeros(8);
+//        precision(4);
+//        insertStrings(Gender.FEMALE.getTitle(), Gender.MALE.getTitle());
+//        argumentOrder(genderInstance.getTitle(), genderInstance.getId());
+//        padding(new String[]{"cat","dog","fish"}, new String[]{"love", "hate", "don't care"} );
+//        getCalendarDate();
+        System.out.println(getSimpleFactorial(8));
 
     }
 
