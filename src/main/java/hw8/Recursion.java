@@ -8,11 +8,20 @@ import java.math.BigInteger;
 public class Recursion {
 
     public static int getSimpleFactorial(int value){
+        if (value < 0) throw new IllegalArgumentException("x должен быть положительным.");
         if (value == 0)
             return 1;
         return value* getSimpleFactorial(value-1);
 
     }
 
+    public static BigInteger getBigIntegerFactorial(int value){
+        if (value < 0) throw new IllegalArgumentException("x должен быть положительным.");
+        BigInteger factorial = BigInteger.ONE;
+        for (int i = 1; i <= value; i++) {
+            factorial = factorial.multiply(BigInteger.valueOf(i));
+        }
+        return factorial;
+    }
 
 }
