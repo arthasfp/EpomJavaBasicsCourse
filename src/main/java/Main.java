@@ -1,9 +1,14 @@
+import DirectoryService.DirectoryServiceImpl;
 import hw5.Gender;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 import static hw8.Recursion.getSimpleFactorial;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 //       DaysToEndOfCurrentYear.getDaysToEndOfCurrentYear();
 //       CurrentFormattedDate.getCurrentFormattedDate();
 //       AmountOfDaysForEachMonth.getAmountOfDaysForEachMonth(2017);
@@ -74,7 +79,13 @@ public class Main {
 //        argumentOrder(genderInstance.getTitle(), genderInstance.getId());
 //        padding(new String[]{"cat","dog","fish"}, new String[]{"love", "hate", "don't care"} );
 //        getCalendarDate();
-        System.out.println(getSimpleFactorial(8));
+//        System.out.println(getSimpleFactorial(8));
+
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        DirectoryServiceImpl service = new DirectoryServiceImpl();
+        System.out.println(service.searchByName(reader.readLine()));
+
+        reader.close();
 
     }
 
