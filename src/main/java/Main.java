@@ -5,6 +5,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+import static hw8.Recursion.fibonacci;
 import static hw8.Recursion.getBigIntegerFactorial;
 import static hw8.Recursion.getSimpleFactorial;
 
@@ -82,6 +83,7 @@ public class Main {
 //        getCalendarDate();
         System.out.println(getSimpleFactorial(8));
         System.out.println(getBigIntegerFactorial(8));
+        System.out.println(fibonacci(10));
 
 //        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 //        DirectoryServiceImpl service = new DirectoryServiceImpl();
