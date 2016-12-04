@@ -1,0 +1,9 @@
+https://habrahabr.ru/post/60317/
+http://www.javatpoint.com/transient-keyword
+http://www.javatpoint.com/serialization-in-java
+http://ccfit.nsu.ru/~deviv/courses/oop/java_ser_rus.html
+http://www.javatutorialguide.com/core-java/tutorials/what-howto-java-externalization-example-program.php
+
+Практика
+Розібратись з прикладом серіалізації/десеріалізації, що проходили на занятті
+Написати програму, аналогічну тій, що на уроці, але для Externalizable  обєкта.
